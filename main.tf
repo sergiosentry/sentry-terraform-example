@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "sentry" {
-  token = "9bdcdadb0a2245cb965c4e138a6bb96f1798b238be624d43858abd8d91c11ebc"
+  token = "{AUTH_TOKEN}"
 }
 
 resource "sentry_issue_alert" "main" {
